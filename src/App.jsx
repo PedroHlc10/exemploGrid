@@ -1,6 +1,6 @@
 import React from 'react';
 import Saudacao from './Saudacao';
-
+import Botao from './Botao';
 function App() {
   return (
     <div className="bg-light min-vh-100 py-4">
@@ -36,10 +36,9 @@ function App() {
           <div className="col-12 col-md-6">
             <div className="card h-100 shadow-sm border-0">
               <div className="card-body">
-                <h2 className="h5 card-title text-success">Coluna 2</h2>
-                <p className="card-text">
-                  O sistema de Grid do Bootstrap se baseia em um total de 12 colunas por linha (`row`).
-                </p>
+                <h2 className="h5 card-title text-success">Exercicio 2</h2>
+                  <Botao
+                  />
               </div>
             </div>
           </div>
